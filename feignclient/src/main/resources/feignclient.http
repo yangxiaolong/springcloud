@@ -1,0 +1,12 @@
+###
+GET http://localhost:8080/get-greeting
+
+###
+POST http://localhost:8080/post-greeting
+
+###
+GET http://localhost:8080/monitor
+
+###
+GET http://localhost:8080/okhttp-monitor
+
