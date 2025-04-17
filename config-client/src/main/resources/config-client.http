@@ -1,0 +1,8 @@
+###
+GET http://localhost:8888/config-client/dev
+
+###
+GET http://localhost:8091/info
+
+###
+POST http://localhost:8091/actuator/refresh

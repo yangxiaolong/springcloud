@@ -18,6 +18,8 @@
         <module>gateway</module>
         <module>product-service</module>
         <module>user-service</module>
+        <module>config-server</module>
+        <module>config-client</module>
     </modules>
 
     <parent>

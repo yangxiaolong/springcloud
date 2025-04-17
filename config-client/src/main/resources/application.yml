@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-client
+  config:
+    import: configserver:http://localhost:8888
+  profiles:
+    active: dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

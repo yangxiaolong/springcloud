@@ -1,0 +1,6 @@
+server:
+  port: 8091
+
+app:
+  name: config-cleint
+  message: Hello from Config Server!
