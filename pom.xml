@@ -20,6 +20,8 @@
         <module>user-service</module>
         <module>config-server</module>
         <module>config-client</module>
+        <module>service-provider</module>
+        <module>service-consumer</module>
     </modules>
 
     <parent>

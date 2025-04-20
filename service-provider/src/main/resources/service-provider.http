@@ -1,0 +1,5 @@
+###
+GET http://localhost:8848/nacos/
+
+###
+GET http://localhost:8081/hello
