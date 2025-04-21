@@ -9,3 +9,7 @@ spring:
     loadbalancer:
       nacos:
         enabled: true
+
+    loadbalancer:
+      nacos:
+        enabled: true
