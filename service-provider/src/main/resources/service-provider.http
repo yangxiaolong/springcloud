@@ -3,3 +3,9 @@ GET http://localhost:8848/nacos/
 
 ###
 GET http://localhost:8081/hello
+
+###
+GET http://localhost:8082/hello
+
+###
+GET http://localhost:8083/hello

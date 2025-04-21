@@ -17,9 +17,12 @@ public class HelloController {
     @Value("${message:Default Message}")
     private String message;
 
+    @Value("${server.port}")
+    private String port;
+
     @GetMapping("/hello")
     public String hello() {
-        return message;
+        return message + " " + port;
     }
 
 }
