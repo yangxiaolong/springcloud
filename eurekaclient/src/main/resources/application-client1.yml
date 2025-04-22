@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-client
+server:
+  #port: 0
+  port: 9091
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka,//localhost:8762/eureka,//localhost:8763/eureka}
+  instance:
+    preferIpAddress: false
+    instance-id: ${spring.application.name}-${server.port}
+
+
+# -Dspring.profiles.active=client1

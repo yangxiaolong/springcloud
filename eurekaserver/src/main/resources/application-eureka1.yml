@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 8761
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/,http://localhost:8763/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: 127.0.0.1
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"  # 暴露所有端点，方便调试，生产环境可按需调整
+#  endpoint:
+#    health:
+#      show-details: always  # 始终显示健康检查的详细信息
+
+
+# -Dspring.profiles.active=eureka1
